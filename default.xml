@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-  
+
+  <remote name="gle_repo"
+  		fetch="git://github.com/mmpgopengles/"
+  />
   <default remote="caf" revision="gingerbread" />
-  
+
+  <project name="gle" path="gle" remote="gle_repo" />
   <project name="device/common" />
   <project name="device/htc/common" />
   <project name="device/htc/passion" />
