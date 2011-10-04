@@ -177,7 +177,7 @@
   
 <project path="prebuilt" name="platform/prebuilt" /> <!--remote="gles2emulator" revision="gingerbread"/>-->
 
-  <project path="sdk" name="platform/sdk" revision="tools_r7" />
+  <project path="sdk" name="platform/sdk" /> <!-- revision="tools_r7" />-->
   <project path="system/bluetooth" name="platform/system/bluetooth" />
 
   <project path="system/core" name="platform/system/core" /> <!-- remote="gles2emulator" revision="gingerbread"/>-->
