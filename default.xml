@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
-
+  <!-- Ondrej test -->
   <remote name="gle_repo"
   		fetch="git://github.com/mmpgopengles/"
   />
