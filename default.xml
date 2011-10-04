@@ -7,7 +7,7 @@
   />
   <default remote="caf" revision="gingerbread" />
 
-  <project name="gle" path="gle" remote="gle_repo" />
+  <project name="gle" path="gle" remote="gle_repo" revision="master"/>
   <project name="device/common" />
   <project name="device/htc/common" />
   <project name="device/htc/passion" />
